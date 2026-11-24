@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" /> 
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Choose Construction or Branding at Goldean Creative Studio." />
     <meta property="og:title" content="Goldean Creative Studio — Construction & Branding" />
@@ -11,6 +11,33 @@
     <title>Aurelia — Construction &amp; Branding</title>
         <link rel="stylesheet" href="styles.css" />
 <style>
+.gate {
+    position: relative;
+    display: grid;
+    min-height: 100vh;
+    min-height: 100svh;
+    overflow: hidden;
+
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    gap: clamp(1rem, 4vw, 4rem);
+    padding: clamp(1.25rem, 5vw, 4rem);
+    background: #beb19f;
+}
+.gate__button {
+    position: relative;
+    min-width: 12rem;
+    overflow: hidden;
+    border: 1px solid var(--gold);
+    padding: 1.05rem 1.45rem;
+    background: rgb(190 177 159);
+    color:#ffffff;
+    cursor: pointer;
+    font: 500 1.4rem / 1.2 Arial, Helvetica, sans-serif;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    transition: color 400ms ease, box-shadow 400ms ease, background-color 400ms ease;
+}
 a {
   text-decoration: none;
   color: #f0d99e;
@@ -20,6 +47,7 @@ a {
 a:hover{
 color: #000;
 }
+
 </style>
   </head>
   <body>
@@ -35,9 +63,9 @@ color: #000;
  </button> </a>
       </div>
 
-      <section class="brand" aria-label="Goldean Creative Studio">
-        <div class="brand__seal" aria-hidden="true"><span class="brand__initial"><a href="index.html">
-    <img src="assets/logo_25.png" alt="Company Name Logo" width="250" height="100">
+      <section class="" aria-label="Goldean Creative Studio">
+        <div class="" aria-hidden="true"><span class=""><a href="">
+    <img src="assets/logo_25.png" alt="Company Name Logo" width="450">
   </a>
 		<!-- <img class="gate__image" data-side="branding" src="assets/logo_25.png" alt="" width="120px" aria-hidden="true" /> --></span></div>
 		
