@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Choose Construction or Branding at Goldean Creative Studio." />
+    <meta property="og:title" content="Goldean Creative Studio — Construction & Branding" />
+    <meta property="og:description" content="Choose Construction or Branding at Goldean Creative Studio." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Aurelia — Construction &amp; Branding</title>
+        <link rel="stylesheet" href="styles.css" />
+<style>
+.gate {
+    position: relative;
+    display: grid;
+    min-height: 100vh;
+    min-height: 100svh;
+    overflow: hidden;
+
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    gap: clamp(1rem, 4vw, 4rem);
+    padding: clamp(1.25rem, 5vw, 4rem);
+    background: #beb19f;
+}
+.gate__button {
+    position: relative;
+    min-width: 12rem;
+    overflow: hidden;
+    border: 1px solid var(--gold);
+    padding: 1.05rem 1.45rem;
+    background: rgb(190 177 159);
+    color:#ffffff;
+    cursor: pointer;
+    font: 500 1.4rem / 1.2 Arial, Helvetica, sans-serif;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    transition: color 400ms ease, box-shadow 400ms ease, background-color 400ms ease;
+}
+a {
+  text-decoration: none;
+  color: #f0d99e;
+    font-weight: 600;
+    font-style: normal;
+}
+a:hover{
+color: #000;
+}
+
+</style>
+  </head>
+  <body>
+    <main class="gate" aria-label="Goldean Creative Studio selection">
+      <img class="gate__image" data-side="construction" src="assets/construction-scene.jpg" alt="" aria-hidden="true" />
+      <img class="gate__image" data-side="branding" src="assets/branding-scene.jpg" alt="" aria-hidden="true" />
+	  
+      <div class="gate__veil" aria-hidden="true"></div>
+
+      <div class="gate__choice">
+        <a href="index.html"><button class="gate__button" type="button" data-choice="construction" aria-pressed="false">
+   Construction
+ </button> </a>
+      </div>
+
+      <section class="" aria-label="Goldean Creative Studio">
+        <div class="" aria-hidden="true"><span class=""><a href="">
+    <img src="assets/logo_25.png" alt="Company Name Logo" width="450">
+  </a>
+		<!-- <img class="gate__image" data-side="branding" src="assets/logo_25.png" alt="" width="120px" aria-hidden="true" /> --></span></div>
+		
+        <!-- <h1 class="brand__name">GOLDEAN</h1>
+        <p class="brand__tagline">Creative Studio</p> -->
+      </section>
+
+      <div class="gate__choice">
+        <button class="gate__button" type="button" data-choice="branding" aria-pressed="false">Branding</button>
+      </div>
+    </main>
+
+        <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
