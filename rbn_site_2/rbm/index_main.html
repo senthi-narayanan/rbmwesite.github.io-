@@ -1,84 +1,100 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Choose Construction or Branding at Goldean Creative Studio." />
-    <meta property="og:title" content="Goldean Creative Studio — Construction & Branding" />
-    <meta property="og:description" content="Choose Construction or Branding at Goldean Creative Studio." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <title>Aurelia — Construction &amp; Branding</title>
-        <link rel="stylesheet" href="styles.css" />
-<style>
-.gate {
-    position: relative;
-    display: grid;
-    min-height: 100vh;
-    min-height: 100svh;
-    overflow: hidden;
+<!DOCTYPE html><html lang="en">
 
-    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
-    align-items: center;
-    gap: clamp(1rem, 4vw, 4rem);
-    padding: clamp(1.25rem, 5vw, 4rem);
-    background: #beb19f;
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home | RBM Signature Interiors</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<style>
+.form-control, .form-select {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid var(--gold);
+    background: #0000001f;
+    padding: 14px 4px;
 }
-.gate__button {
-    position: relative;
-    min-width: 12rem;
-    overflow: hidden;
-    border: 1px solid var(--gold);
-    padding: 1.05rem 1.45rem;
-    background: rgb(190 177 159);
-    color:#ffffff;
-    cursor: pointer;
-    font: 500 1.4rem / 1.2 Arial, Helvetica, sans-serif;
-    letter-spacing: .18em;
-    text-transform: uppercase;
-    transition: color 400ms ease, box-shadow 400ms ease, background-color 400ms ease;
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #f9d568;
 }
-a {
-  text-decoration: none;
-  color: #f0d99e;
-    font-weight: 600;
-    font-style: normal;
+
+.navbar{
+background-color:rgba(42,33,27,.96);
+    padding: 5px 0;
 }
-a:hover{
-color: #000;
+.slide h1 {
+    font-size: 3rem !important;
 }
 
 </style>
-  </head>
-  <body>
-    <main class="gate" aria-label="Goldean Creative Studio selection">
-      <img class="gate__image" data-side="construction" src="assets/construction-scene.jpg" alt="" aria-hidden="true" />
-      <img class="gate__image" data-side="branding" src="assets/branding-scene.jpg" alt="" aria-hidden="true" />
-	  
-      <div class="gate__veil" aria-hidden="true"></div>
+</head><body>
 
-      <div class="gate__choice">
-        <a href="index.html"><button class="gate__button" type="button" data-choice="construction" aria-pressed="false">
-   Construction
- </button> </a>
-      </div>
+<nav class="navbar navbar-expand-lg fixed-top">
 
-      <section class="" aria-label="Goldean Creative Studio">
-        <div class="" aria-hidden="true"><span class=""><a href="">
-    <img src="assets/logo_25.png" alt="Company Name Logo" width="450">
+<div class="container" style="max-width: 94%;">
+<!-- <a class="brand" href="index.html">RBM<small>Signature</small></a> --><a class="brand" href="index.html">
+    <img src="css/logo.png" alt="Company Name Logo" width="150">
   </a>
-		<!-- <img class="gate__image" data-side="branding" src="assets/logo_25.png" alt="" width="120px" aria-hidden="true" /> --></span></div>
-		
-        <!-- <h1 class="brand__name">GOLDEAN</h1>
-        <p class="brand__tagline">Creative Studio</p> -->
-      </section>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#m" aria-label="Menu"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="m"><ul class="navbar-nav ms-auto align-items-lg-center"><li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li><li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li><li class="nav-item"><a class="nav-link" href="services.html">Services</a></li><li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li><li class="nav-item"><a class="nav-link" href="construction.html">Construction</a></li><li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li><li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+<li class="nav-item ms-lg-3 mt-3 mt-lg-0"><a class="btn btn-gold" href="contact.html">Book Consultation</a></li></ul></div></div></nav>
 
-      <div class="gate__choice">
-        <button class="gate__button" type="button" data-choice="branding" aria-pressed="false">Branding</button>
-      </div>
-    </main>
+<section class="hero" data-slider="6500">
+<div class="slide" data-item style="background-image:url(https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=70)">
 
-        <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
-</html>
+
+<div class="container" style="max-width: 86%;"><div class="row">
+<div class="col-lg-8">
+<!-- <span class="eyebrow reveal-line d-block mb-3 text-white-50">RBM Signature Interiors</span> -->
+<h1 class="reveal-line">A PROMISE KEPT.
+A FIXED BUDGET. NO CHANGES.
+COMPLETE TRANSPARENCY FROM START TO KEY HANDOVER
+</h1>
+<p class="lead mt-4 reveal-line">Luxury interiors crafted with creativity, craftsmanship and timeless elegance</p>
+<div class="reveal-line mt-4"><a class="btn btn-gold me-2 mb-2" href="projects.html">View Projects</a><a class="btn btn-line mb-2" href="contact.html">Free Consultation</a></div></div></div></div></div>
+<div class="slide" data-item style="background-image:url(https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=70)"><div class="container"><div class="row"><div class="col-lg-8">
+<span class="eyebrow reveal-line d-block mb-3 text-white-50">RBM Signature Interiors</span><h1 class="reveal-line">Where comfort meets royal elegance</h1><p class="lead mt-4 reveal-line">Bespoke bedrooms, lounges and dining spaces</p>
+<div class="reveal-line mt-4"><a class="btn btn-gold me-2 mb-2" href="projects.html">View Projects</a><a class="btn btn-line mb-2" href="contact.html">Free Consultation</a></div></div></div></div></div><div class="slide" data-item style="background-image:url(https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=70)"><div class="container"><div class="row"><div class="col-lg-8">
+<span class="eyebrow reveal-line d-block mb-3 text-white-50">RBM Signature Interiors</span><h1 class="reveal-line">Workplaces with presence</h1><p class="lead mt-4 reveal-line">Commercial interiors that lift brands and teams</p>
+<div class="reveal-line mt-4"><a class="btn btn-gold me-2 mb-2" href="projects.html">View Projects</a><a class="btn btn-line mb-2" href="contact.html">Free Consultation</a></div></div></div></div></div><div class="hero-ctrl"><div class="container d-flex justify-content-between align-items-center"><div class="dots"></div><div><button class="arrow prev" aria-label="Previous"><i class="bi bi-chevron-left"></i></button><button class="arrow next" aria-label="Next"><i class="bi bi-chevron-right"></i></button></div></div></div></section><div class="gold-line"></div>
+
+<section class="sec sec-taupe">
+<div class="container" style="max-width: 90%;">
+<div class="row align-items-center g-4">
+<div class="col-lg-12 rv"><span class="eyebrow">What we do</span><h2 class="mt-2">Our interior design services</h2><p>End-to-end design solutions tailored to your lifestyle and space.</p></div>
+
+<div class="col-lg-12"><div class="row g-4">
+<div class="col-sm-6 col-lg-4 rv">
+<div class="svc"><i class="bi bi-house-heart"></i><h4 class="mt-3">Company introduction and a short description of your business.</h4><p class="mb-0">Elegant, functional interiors for modern homes.</p></div></div>
+<div class="col-sm-6 col-lg-4 rv"><div class="svc"><i class="bi bi-buildings"></i><h4 class="mt-3">	Key services offered by your company</h4><p class="mb-0">Productive, inspiring spaces for businesses and offices.</p></div></div>
+<div class="col-sm-6 col-lg-4 rv"><div class="svc"><i class="bi bi-buildings"></i><h4 class="mt-3">	Main highlights and strengths of your company.</h4><p class="mb-0">Productive, inspiring spaces for businesses and offices.</p></div></div>
+<div class="col-sm-6 col-lg-4 rv"><div class="svc"><i class="bi bi-buildings"></i><h4 class="mt-3">	Featured project details and photographs.</h4><p class="mb-0">Productive, inspiring spaces for businesses and offices.</p></div></div>
+<div class="col-sm-6 col-lg-4 rv"><div class="svc"><i class="bi bi-lamp"></i><h4 class="mt-3">	Main headline or tagline for the website.</h4><p class="mb-0">Bespoke furniture designed to fit your style and space.</p></div></div>
+<div class="col-sm-6 col-lg-4 rv"><div class="svc"><i class="bi bi-rulers"></i><h4 class="mt-3">Space Planning</h4><p class="mb-0">Smart layouts that maximise space and enhance comfort.</p></div></div></div></div>
+</div></div></section>
+
+<div class="gold-line"></div>
+<section class="sec sec-dark"><div class="container"><div class="text-center rv"><h2>4 simple steps to bring your space to life</h2><div class="divider"></div><p>From concept to completion, we transform your ideas into stunning interior spaces.</p></div><div class="row g-0"><div class="col-md-3 step rv"><i class="bi bi-calendar-check"></i><h5 class="serif fs-4 mt-3">Schedule a Consultation</h5><p class="small mb-0">We learn your vision, needs and preferences.</p></div><div class="col-md-3 step rv"><i class="bi bi-hand-index-thumb"></i><h5 class="serif fs-4 mt-3">Approve the Concept</h5><p class="small mb-0">Design proposals and mood boards for your approval.</p></div><div class="col-md-3 step rv"><i class="bi bi-rulers"></i><h5 class="serif fs-4 mt-3">Design &amp; Build</h5><p class="small mb-0">Detailed drawings and on-site execution.</p></div><div class="col-md-3 step rv"><i class="bi bi-hand-thumbs-up"></i><h5 class="serif fs-4 mt-3">Project Handover</h5><p class="small mb-0">A finished, ready-to-use space, just as imagined.</p></div></div></div></section><div class="gold-line"></div>
+<section class="sec"><div class="container"><div class="text-center rv"><span class="eyebrow">Featured projects</span><h2 class="mt-2">Explore our signature interiors</h2><div class="divider"></div></div><div class="row g-4"><div class="col-md-6 col-lg-4 pitem rv" data-c="res"><a href="contact.html" class="proj" style="background-image:url(https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=70)"><div class="cap"><small>Residential</small><h4 class="mb-0">Modern Luxury Living Room</h4></div></a></div><div class="col-md-6 col-lg-4 pitem rv" data-c="res"><a href="contact.html" class="proj" style="background-image:url(https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=70)"><div class="cap"><small>Residential</small><h4 class="mb-0">Elegant Bedroom Design</h4></div></a></div><div class="col-md-6 col-lg-4 pitem rv" data-c="com"><a href="contact.html" class="proj" style="background-image:url(https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=70)"><div class="cap"><small>Commercial</small><h4 class="mb-0">Contemporary Office Space</h4></div></a></div></div><div class="text-center mt-5"><a class="btn btn-gold" href="projects.html">View all projects</a></div></div></section>
+<section class="testi" data-slider="7000"><div class="t" data-item style="background-image:url(https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=70)"><div class="container"><blockquote>&ldquo;The entire process was smooth and inspiring: a truly professional and creative design team.&rdquo;<cite>ANITHA &amp; RAJESH, VILLA OWNERS</cite></blockquote></div></div><div class="t" data-item style="background-image:url(https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1800&q=70)"><div class="container"><blockquote>&ldquo;They turned our kitchen into the heart of the home. Every detail felt considered.&rdquo;<cite>MEERA KRISHNAN, HOMEOWNER</cite></blockquote></div></div><div class="t" data-item style="background-image:url(https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=70)"><div class="container"><blockquote>&ldquo;Delivered on time, on budget and far beyond our brief.&rdquo;<cite>SURESH NAIR, MANAGING DIRECTOR</cite></blockquote></div></div><div class="container position-absolute bottom-0 start-50 translate-middle-x pb-4" style="z-index:5"><div class="dots text-center"></div></div></section><div class="gold-line"></div>
+<section class="sec"><div class="container"><div class="row g-5 align-items-center"><div class="col-lg-5 rv"><span class="eyebrow">Why choose RBM</span><h2 class="mt-2">Crafting interiors that reflect you</h2><div class="divider"></div><p>We combine design innovation with personalised service to deliver spaces that are beautiful, functional and uniquely yours.</p><a class="btn btn-gold" href="about.html">About us</a></div><div class="col-lg-7"><div class="row text-center"><div class="col-6 col-md-3 stat rv"><b><span class="count" data-to="500">0</span>+</b>Projects completed</div><div class="col-6 col-md-3 stat rv"><b><span class="count" data-to="98">0</span>%</b>Client satisfaction</div><div class="col-6 col-md-3 stat rv"><b><span class="count" data-to="15">0</span>+</b>Years of experience</div><div class="col-6 col-md-3 stat rv"><b><span class="count" data-to="40">0</span>+</b>Expert designers</div></div></div></div></div></section><section class="sec-ink sec text-center"><div class="container rv"><span class="eyebrow">Let design your dream space</span><h2 class="mt-2 text-white">Begin your story with a private consultation</h2><div class="divider"></div><a class="btn btn-gold" href="contact.html">Book Consultation</a></div></section><div class="gold-line"></div>
+
+<footer>
+<div class="container"><div class="row g-4">
+<div class="col-lg-4"><!-- <a class="brand" href="index.html" style="font-size:2.4rem">RBM<small>Signature</small></a> --><a class="brand" href="index.html">
+    <img src="css/logo.png" alt="Company Name Logo" width="250">
+  </a>
+<p class="mt-3">Creating timeless interiors that elevate the way you live and work.</p>
+<div class="social"><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-pinterest"></i></a><a href="#"><i class="bi bi-whatsapp"></i></a></div></div>
+<div class="col-6 col-lg-2"><h6>Quick Links</h6><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="projects.html">Projects</a></li><li><a href="blog.html">Blog</a></li></ul></div>
+<div class="col-6 col-lg-2"><h6>Services</h6><ul><li><a href="services.html">Residential Interiors</a></li><li><a href="services.html">Commercial Interiors</a></li><li><a href="services.html">Custom Furniture</a></li><li><a href="construction.html">Construction</a></li></ul></div>
+<div class="col-md-6 col-lg-2"><h6>Contact</h6><ul><li>+91 7358624759</li><li>info@rbmsignature.in</li><li>Kerala, India</li></ul></div>
+<div class="col-md-6 col-lg-2"><h6>Newsletter</h6><form id="newsForm"><input class="form-control" type="email" placeholder="Enter your email" required></form></div>
+</div><div class="copy text-center">&copy; 2026 RBM Interior Excellence. All Rights Reserved.</div></div>
+</footer>
+
+<button id="toTop" aria-label="Back to top"><i class="bi bi-chevron-up"></i></button>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script></body></html>
