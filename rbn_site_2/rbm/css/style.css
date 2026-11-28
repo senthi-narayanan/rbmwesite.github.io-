@@ -8,11 +8,11 @@ img{max-width:100%}
 .gold-line{height:8px;background:var(--goldline);background-size:200% 100%;animation:shine 6s linear infinite}
 @keyframes shine{to{background-position:-200% 0}}
 .text-gold{color:var(--gold)!important}
-.eyebrow{color:var(--gold);letter-spacing:.2em;font-size:.8rem;text-transform:uppercase}
+.eyebrow{    color: #fff;letter-spacing:.2em;font-size:.8rem;text-transform:uppercase}
 .sec{padding:96px 0}
 .sec-dark{background:var(--mauve);color:#f4efe8}
 .sec-taupe{background:var(--taupe)}
-.sec-ink{background:var(--ink);color:#e9e2d6}
+.sec-ink{background: #8d6436;color:#e9e2d6}
 .divider{width:90px;height:2px;background:var(--goldline);margin:18px 0 26px}
 .text-center .divider{margin-left:auto;margin-right:auto}
 /* nav */
